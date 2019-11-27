@@ -1,0 +1,60 @@
+{ 
+    "_id" : ObjectId("5dd56044328eb808700012dd"), 
+    "first_name" : "احمد", 
+    "last_name" : "احمدی", 
+    "email" : "ahmad@gmail.com", 
+    "contact" : "0778833228", 
+    "dept" : "DB", 
+    "address" : "h", 
+    "image_name" : "1574266355.jpg", 
+    "updated_at" : ISODate("2019-11-20T16:12:35.000+0000"), 
+    "created_at" : ISODate("2019-11-20T15:48:20.000+0000")
+}
+{ 
+    "_id" : ObjectId("5dd5800e328eb808700012e1"), 
+    "first_name" : "Hadi", 
+    "last_name" : "Razavi", 
+    "email" : "hadi@gmail.com", 
+    "contact" : "0778833223", 
+    "dept" : "Litrature", 
+    "address" : "Ghazni", 
+    "image_name" : "1574273038.png", 
+    "updated_at" : ISODate("2019-11-20T18:03:58.000+0000"), 
+    "created_at" : ISODate("2019-11-20T18:03:58.000+0000")
+}
+{ 
+    "_id" : ObjectId("5dd6b712328eb80d94006962"), 
+    "first_name" : "احسان", 
+    "last_name" : "Royish", 
+    "email" : "ali@gmail.com", 
+    "contact" : "0778833226", 
+    "dept" : "علوم اجتماعی", 
+    "address" : "هرات", 
+    "image_name" : "1574352658.jpg", 
+    "updated_at" : ISODate("2019-11-21T16:10:58.000+0000"), 
+    "created_at" : ISODate("2019-11-21T16:10:58.000+0000")
+}
+{ 
+    "_id" : ObjectId("5dd6b738328eb80d94006963"), 
+    "first_name" : "omid", 
+    "last_name" : "ziaee", 
+    "email" : "ahmad@gmail.com", 
+    "contact" : "0778833223", 
+    "dept" : "ساینس", 
+    "address" : "فراه", 
+    "image_name" : "1574352696.png", 
+    "updated_at" : ISODate("2019-11-21T16:11:36.000+0000"), 
+    "created_at" : ISODate("2019-11-21T16:11:36.000+0000")
+}
+{ 
+    "_id" : ObjectId("5dd6b77c328eb80d94006964"), 
+    "first_name" : "مهدی", 
+    "last_name" : "مهدی", 
+    "email" : "m@gmail.com", 
+    "contact" : "0798897897", 
+    "dept" : "ژورنالیزم", 
+    "address" : "کابل", 
+    "image_name" : "1574352764.jpg", 
+    "updated_at" : ISODate("2019-11-21T16:12:44.000+0000"), 
+    "created_at" : ISODate("2019-11-21T16:12:44.000+0000")
+}

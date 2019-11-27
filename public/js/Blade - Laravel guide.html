@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://laravel-guide.readthedocs.io/en/latest/blade/ -->
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <title>Blade - Laravel guide</title>
+  
+
+  <link rel="shortcut icon" href="https://laravel-guide.readthedocs.io/en/latest/img/favicon.ico">
+
+  
+  <link href="./Blade - Laravel guide_files/css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="./Blade - Laravel guide_files/theme.css" type="text/css">
+  <link rel="stylesheet" href="./Blade - Laravel guide_files/theme_extra.css" type="text/css">
+  <link rel="stylesheet" href="./Blade - Laravel guide_files/highlight.css">
+  <link href="https://media.readthedocs.org/css/badge_only.css" rel="stylesheet">
+  <link href="./Blade - Laravel guide_files/readthedocs-doc-embed.css" rel="stylesheet">
+
+  
+  <script type="text/javascript" async="" src="./Blade - Laravel guide_files/ga.js"></script><script>
+    // Current page data
+    var mkdocs_page_name = "Blade";
+    var mkdocs_page_input_path = "blade.md";
+    var mkdocs_page_url = "/blade/";
+  </script>
+  
+  <script src="./Blade - Laravel guide_files/jquery-2.1.1.min.js"></script>
+  <script src="./Blade - Laravel guide_files/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="./Blade - Laravel guide_files/highlight.pack.js"></script>
+  <script src="./Blade - Laravel guide_files/theme.js"></script> 
+  <script src="./Blade - Laravel guide_files/readthedocs-data.js"></script>
+  <script src="./Blade - Laravel guide_files/readthedocs-dynamic-include.js"></script>
+  <script src="./Blade - Laravel guide_files/readthedocs-doc-embed.js"></script>
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="https://laravel-guide.readthedocs.io/en/latest/" class="icon icon-home"> Laravel guide</a>
+        <div role="search">
+  <form id="rtd-search-form" class="wy-form" action="" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/">Home</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/apis/">Apis</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/application-testing/">Application testing</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/artisan/">Artisan</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/authentication/">Authentication</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/authorization/">Authorization</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/billing/">Billing</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 current">
+        <a class="current" href="./Blade - Laravel guide_files/Blade - Laravel guide.html">Blade</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="https://laravel-guide.readthedocs.io/en/latest/blade/#blade-templates">Blade Templates</a></li>
+                
+                    <li><a class="toctree-l4" href="https://laravel-guide.readthedocs.io/en/latest/blade/#introduction">Introduction</a></li>
+                
+                    <li><a class="toctree-l4" href="https://laravel-guide.readthedocs.io/en/latest/blade/#template-inheritance">Template Inheritance</a></li>
+                
+                    <li><a class="toctree-l4" href="https://laravel-guide.readthedocs.io/en/latest/blade/#displaying-data">Displaying Data</a></li>
+                
+                    <li><a class="toctree-l4" href="https://laravel-guide.readthedocs.io/en/latest/blade/#control-structures">Control Structures</a></li>
+                
+                    <li><a class="toctree-l4" href="https://laravel-guide.readthedocs.io/en/latest/blade/#including-sub-views">Including Sub-Views</a></li>
+                
+                    <li><a class="toctree-l4" href="https://laravel-guide.readthedocs.io/en/latest/blade/#stacks">Stacks</a></li>
+                
+                    <li><a class="toctree-l4" href="https://laravel-guide.readthedocs.io/en/latest/blade/#service-injection">Service Injection</a></li>
+                
+                    <li><a class="toctree-l4" href="https://laravel-guide.readthedocs.io/en/latest/blade/#extending-blade">Extending Blade</a></li>
+                
+            
+            </ul>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/broadcasting/">Broadcasting</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/cache/">Cache</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/collections/">Collections</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/configuration/">Configuration</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/container/">Container</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/contracts/">Contracts</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/contributing/">Contributing</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/contributions/">Contributions</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/controllers/">Controllers</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/csrf/">Csrf</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/database-testing/">Database testing</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/database/">Database</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/documentation/">Documentation</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/elixir/">Elixir</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/eloquent-collections/">Eloquent collections</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/eloquent-mutators/">Eloquent mutators</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/eloquent-relationships/">Eloquent relationships</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/eloquent-serialization/">Eloquent serialization</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/eloquent/">Eloquent</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/encryption/">Encryption</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/envoy/">Envoy</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/errors/">Errors</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/events/">Events</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/facades/">Facades</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/filesystem/">Filesystem</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/frontend/">Frontend</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/hashing/">Hashing</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/helpers/">Helpers</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/homestead/">Homestead</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/installation/">Installation</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/license/">License</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/lifecycle/">Lifecycle</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/localization/">Localization</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/mail/">Mail</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/middleware/">Middleware</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/migrations/">Migrations</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/mocking/">Mocking</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/notifications/">Notifications</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/packages/">Packages</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/pagination/">Pagination</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/passport/">Passport</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/passwords/">Passwords</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/providers/">Providers</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/queries/">Queries</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/queues/">Queues</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/readme/">Readme</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/redirects/">Redirects</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/redis/">Redis</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/releases/">Releases</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/requests/">Requests</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/responses/">Responses</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/routing/">Routing</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/scheduling/">Scheduling</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/scout/">Scout</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/seeding/">Seeding</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/session/">Session</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/structure/">Structure</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/testing/">Testing</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/upgrade/">Upgrade</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/valet/">Valet</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/validation/">Validation</a>
+        
+    </li>
+<li>
+          
+            </li><li>
+    </li><li class="toctree-l1 ">
+        <a class="" href="https://laravel-guide.readthedocs.io/en/latest/views/">Views</a>
+        
+    </li>
+<li>
+          
+        </li></ul>
+      </div>
+      &nbsp;
+    <div id="rtd-3g8k3fuo8khuxr" class="ethical-rtd"><div class="ethical-sidebar"><div class="ethical-content"><a href="https://readthedocs.org/sustainability/click/194/whRLB7pcaig5/" rel="nofollow" target="_blank" class="ethical-image-link"><img src="./Blade - Laravel guide_files/english-house.png"></a><div class="ethical-text"><a href="https://readthedocs.org/sustainability/click/194/whRLB7pcaig5/" rel="nofollow" target="_blank"><b>Reach over 7 million devs</b> each month when you advertise with Read the Docs</a>.</div></div><div class="ethical-callout"><small><em><a href="https://readthedocs.org/sustainability/advertising/">Sponsored</a><span> · </span><a href="https://docs.readthedocs.io/en/latest/ethical-advertising.html">Ads served ethically</a></em></small></div></div></div></nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="https://laravel-guide.readthedocs.io/en/latest/">Laravel guide</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="https://laravel-guide.readthedocs.io/en/latest/">Docs</a> »</li>
+    
+      
+    
+    <li>Blade</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="blade-templates">Blade Templates</h1>
+<ul>
+<li><a href="https://laravel-guide.readthedocs.io/en/latest/blade/#introduction">Introduction</a></li>
+<li><a href="https://laravel-guide.readthedocs.io/en/latest/blade/#template-inheritance">Template Inheritance</a><ul>
+<li><a href="https://laravel-guide.readthedocs.io/en/latest/blade/#defining-a-layout">Defining A Layout</a></li>
+<li><a href="https://laravel-guide.readthedocs.io/en/latest/blade/#extending-a-layout">Extending A Layout</a></li>
+</ul>
+</li>
+<li><a href="https://laravel-guide.readthedocs.io/en/latest/blade/#displaying-data">Displaying Data</a><ul>
+<li><a href="https://laravel-guide.readthedocs.io/en/latest/blade/#blade-and-javascript-frameworks">Blade &amp; JavaScript Frameworks</a></li>
+</ul>
+</li>
+<li><a href="https://laravel-guide.readthedocs.io/en/latest/blade/#control-structures">Control Structures</a><ul>
+<li><a href="https://laravel-guide.readthedocs.io/en/latest/blade/#if-statements">If Statements</a></li>
+<li><a href="https://laravel-guide.readthedocs.io/en/latest/blade/#loops">Loops</a></li>
+<li><a href="https://laravel-guide.readthedocs.io/en/latest/blade/#the-loop-variable">The Loop Variable</a></li>
+<li><a href="https://laravel-guide.readthedocs.io/en/latest/blade/#comments">Comments</a></li>
+<li><a href="https://laravel-guide.readthedocs.io/en/latest/blade/#php">PHP</a></li>
+</ul>
+</li>
+<li><a href="https://laravel-guide.readthedocs.io/en/latest/blade/#including-sub-views">Including Sub-Views</a><ul>
+<li><a href="https://laravel-guide.readthedocs.io/en/latest/blade/#rendering-views-for-collections">Rendering Views For Collections</a></li>
+</ul>
+</li>
+<li><a href="https://laravel-guide.readthedocs.io/en/latest/blade/#stacks">Stacks</a></li>
+<li><a href="https://laravel-guide.readthedocs.io/en/latest/blade/#service-injection">Service Injection</a></li>
+<li><a href="https://laravel-guide.readthedocs.io/en/latest/blade/#extending-blade">Extending Blade</a></li>
+</ul>
+<p><a name="introduction"></a></p>
+<h2 id="introduction">Introduction</h2>
+<p>Blade is the simple, yet powerful templating engine provided with Laravel. Unlike other popular PHP templating engines, Blade does not restrict you from using plain PHP code in your views. In fact, all Blade views are compiled into plain PHP code and cached until they are modified, meaning Blade adds essentially zero overhead to your application. Blade view files use the <code>.blade.php</code> file extension and are typically stored in the <code>resources/views</code> directory.</p>
+<p><a name="template-inheritance"></a></p>
+<h2 id="template-inheritance">Template Inheritance</h2>
+<p><a name="defining-a-layout"></a></p>
+<h3 id="defining-a-layout">Defining A Layout</h3>
+<p>Two of the primary benefits of using Blade are <em>template inheritance</em> and <em>sections</em>. To get started, let's take a look at a simple example. First, we will examine a "master" page layout. Since most web applications maintain the same general layout across various pages, it's convenient to define this layout as a single Blade view:</p>
+<pre><code class="hljs vbscript-html"><span class="xml"><span class="hljs-comment">&lt;!-- Stored in resources/views/layouts/app.blade.php --&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-title">html</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">title</span>&gt;</span>App Name - @yield('title')<span class="hljs-tag">&lt;/<span class="hljs-title">title</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+        @section('sidebar')
+            This is the master sidebar.
+        @show
+
+        <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"container"</span>&gt;</span>
+            @yield('content')
+        <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span>
+</span></code></pre>
+<p>As you can see, this file contains typical HTML mark-up. However, take note of the <code>@section</code> and <code>@yield</code> directives. The <code>@section</code> directive, as the name implies, defines a section of content, while the <code>@yield</code> directive is used to display the contents of a given section.</p>
+<p>Now that we have defined a layout for our application, let's define a child page that inherits the layout.</p>
+<p><a name="extending-a-layout"></a></p>
+<h3 id="extending-a-layout">Extending A Layout</h3>
+<p>When defining a child view, use the Blade <code>@extends</code> directive to specify which layout the child view should "inherit". Views which extend a Blade layout may inject content into the layout's sections using <code>@section</code> directives. Remember, as seen in the example above, the contents of these sections will be displayed in the layout using <code>@yield</code>:</p>
+<pre><code class="hljs stylus">&lt;!-- Stored <span class="hljs-keyword">in</span> resources/views/child<span class="hljs-class">.blade</span><span class="hljs-class">.php</span> --&gt;
+
+@<span class="hljs-function"><span class="hljs-title">extends</span><span class="hljs-params">(<span class="hljs-string">'layouts.app'</span>)</span></span>
+
+@<span class="hljs-function"><span class="hljs-title">section</span><span class="hljs-params">(<span class="hljs-string">'title'</span>, <span class="hljs-string">'Page Title'</span>)</span></span>
+
+@<span class="hljs-function"><span class="hljs-title">section</span><span class="hljs-params">(<span class="hljs-string">'sidebar'</span>)</span></span>
+    @@parent
+
+    &lt;p&gt;This is appended to the master sidebar.&lt;/p&gt;
+@endsection
+
+@<span class="hljs-function"><span class="hljs-title">section</span><span class="hljs-params">(<span class="hljs-string">'content'</span>)</span></span>
+    &lt;p&gt;This is my <span class="hljs-tag">body</span> <span class="hljs-attribute">content</span>.&lt;/p&gt;
+@endsection
+</code></pre>
+<p>In this example, the <code>sidebar</code> section is utilizing the <code>@@parent</code> directive to append (rather than overwriting) content to the layout's sidebar. The <code>@@parent</code> directive will be replaced by the content of the layout when the view is rendered.</p>
+<p>Blade views may be returned from routes using the global <code>view</code> helper:</p>
+<pre><code class="hljs actionscript">Route::<span class="hljs-keyword">get</span>(<span class="hljs-string">'blade'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">return</span> view(<span class="hljs-string">'child'</span>);
+});
+</code></pre>
+<p><a name="displaying-data"></a></p>
+<h2 id="displaying-data">Displaying Data</h2>
+<p>You may display data passed to your Blade views by wrapping the variable in curly braces. For example, given the following route:</p>
+<pre><code class="hljs php">Route::get(<span class="hljs-string">'greeting'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">return</span> view(<span class="hljs-string">'welcome'</span>, [<span class="hljs-string">'name'</span> =&gt; <span class="hljs-string">'Samantha'</span>]);
+});
+</code></pre>
+<p>You may display the contents of the <code>name</code> variable like so:</p>
+<pre><code class="hljs handlebars"><span class="xml">Hello, </span><span class="hljs-expression">{{ $<span class="hljs-variable">name</span> }}</span><span class="xml">.
+</span></code></pre>
+<p>Of course, you are not limited to displaying the contents of the variables passed to the view. You may also echo the results of any PHP function. In fact, you can put any PHP code you wish inside of a Blade echo statement:</p>
+<pre><code class="hljs vbscript">The current UNIX timestamp <span class="hljs-keyword">is</span> {{ <span class="hljs-built_in">time</span>() }}.
+</code></pre>
+<blockquote>
+<p>{note} Blade <code>{{ }}</code> statements are automatically sent through PHP's <code>htmlentities</code> function to prevent XSS attacks.</p>
+</blockquote>
+<h4 id="echoing-data-if-it-exists">Echoing Data If It Exists</h4>
+<p>Sometimes you may wish to echo a variable, but you aren't sure if the variable has been set. We can express this in verbose PHP code like so:</p>
+<pre><code class="hljs handlebars"><span class="xml"></span><span class="hljs-expression">{{ <span class="hljs-variable">isset</span>($<span class="hljs-variable">name</span>) ? $<span class="hljs-variable">name</span> : '<span class="hljs-variable">Default</span>' }}</span><span class="xml">
+</span></code></pre>
+<p>However, instead of writing a ternary statement, Blade provides you with the following convenient shortcut, which will be compiled to the ternary statement above:</p>
+<pre><code class="hljs handlebars"><span class="xml"></span><span class="hljs-expression">{{ $<span class="hljs-variable">name</span> <span class="hljs-variable">or</span> '<span class="hljs-variable">Default</span>' }}</span><span class="xml">
+</span></code></pre>
+<p>In this example, if the <code>$name</code> variable exists, its value will be displayed. However, if it does not exist, the word <code>Default</code> will be displayed.</p>
+<h4 id="displaying-unescaped-data">Displaying Unescaped Data</h4>
+<p>By default, Blade <code>{{ }}</code> statements are automatically sent through PHP's <code>htmlentities</code> function to prevent XSS attacks. If you do not want your data to be escaped, you may use the following syntax:</p>
+<pre><code class="hljs erlang-repl"><span class="hljs-variable">Hello</span>, {<span class="hljs-exclamation_mark">!</span><span class="hljs-exclamation_mark">!</span> $<span class="hljs-function_or_atom">name</span> <span class="hljs-exclamation_mark">!</span><span class="hljs-exclamation_mark">!</span>}.
+</code></pre>
+<blockquote>
+<p>{note} Be very careful when echoing content that is supplied by users of your application. Always use the escaped, double curly brace syntax to prevent XSS attacks when displaying user supplied data.</p>
+</blockquote>
+<p><a name="blade-and-javascript-frameworks"></a></p>
+<h3 id="blade-javascript-frameworks">Blade &amp; JavaScript Frameworks</h3>
+<p>Since many JavaScript frameworks also use "curly" braces to indicate a given expression should be displayed in the browser, you may use the <code>@</code> symbol to inform the Blade rendering engine an expression should remain untouched. For example:</p>
+<pre><code class="hljs handlebars"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">h1</span>&gt;</span>Laravel<span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span>
+
+Hello, @</span><span class="hljs-expression">{{ <span class="hljs-variable">name</span> }}</span><span class="xml">.
+</span></code></pre>
+<p>In this example, the <code>@</code> symbol will be removed by Blade; however, <code>{{ name }}</code> expression will remain untouched by the Blade engine, allowing it to instead be rendered by your JavaScript framework.</p>
+<h4 id="the-verbatim-directive">The <code>@verbatim</code> Directive</h4>
+<p>If you are displaying JavaScript variables in a large portion of your template, you may wrap the HTML in the <code>@verbatim</code> directive so that you do not have to prefix each Blade echo statement with an <code>@</code> symbol:</p>
+<pre><code class="hljs scala"><span class="hljs-annotation">@verbatim</span>
+    &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span>=</span><span class="hljs-string">"container"</span>&gt;
+        <span class="hljs-type">Hello</span>, {{ name }}.
+    &lt;/div&gt;
+<span class="hljs-annotation">@endverbatim</span>
+</code></pre>
+<p><a name="control-structures"></a></p>
+<h2 id="control-structures">Control Structures</h2>
+<p>In addition to template inheritance and displaying data, Blade also provides convenient shortcuts for common PHP control structures, such as conditional statements and loops. These shortcuts provide a very clean, terse way of working with PHP control structures, while also remaining familiar to their PHP counterparts.</p>
+<p><a name="if-statements"></a></p>
+<h3 id="if-statements">If Statements</h3>
+<p>You may construct <code>if</code> statements using the <code>@if</code>, <code>@elseif</code>, <code>@else</code>, and <code>@endif</code> directives. These directives function identically to their PHP counterparts:</p>
+<pre><code class="hljs less"><span class="hljs-variable">@if</span> (<span class="hljs-function">count</span>($records) === <span class="hljs-number">1</span>)
+    I have one record!
+<span class="hljs-variable">@elseif</span> (<span class="hljs-function">count</span>($records) &gt; <span class="hljs-number">1</span>)
+    I have multiple records!
+<span class="hljs-variable">@else</span>
+    I don't have any records!
+<span class="hljs-variable">@endif</span>
+</code></pre>
+<p>For convenience, Blade also provides an <code>@unless</code> directive:</p>
+<pre><code class="hljs less"><span class="hljs-variable">@unless</span> (<span class="hljs-attribute">Auth</span>::<span class="hljs-function">check</span>())
+    You are not signed in.
+<span class="hljs-variable">@endunless</span>
+</code></pre>
+<p><a name="loops"></a></p>
+<h3 id="loops">Loops</h3>
+<p>In addition to conditional statements, Blade provides simple directives for working with PHP's loop structures. Again, each of these directives functions identically to their PHP counterparts:</p>
+<pre><code class="hljs php">@<span class="hljs-keyword">for</span> (<span class="hljs-variable">$i</span> = <span class="hljs-number">0</span>; <span class="hljs-variable">$i</span> &lt; <span class="hljs-number">10</span>; <span class="hljs-variable">$i</span>++)
+    The current value is {{ <span class="hljs-variable">$i</span> }}
+@<span class="hljs-keyword">endfor</span>
+
+@<span class="hljs-keyword">foreach</span> (<span class="hljs-variable">$users</span> <span class="hljs-keyword">as</span> <span class="hljs-variable">$user</span>)
+    &lt;p&gt;This is user {{ <span class="hljs-variable">$user</span>-&gt;id }}&lt;/p&gt;
+@<span class="hljs-keyword">endforeach</span>
+
+@forelse (<span class="hljs-variable">$users</span> <span class="hljs-keyword">as</span> <span class="hljs-variable">$user</span>)
+    &lt;li&gt;{{ <span class="hljs-variable">$user</span>-&gt;name }}&lt;/li&gt;
+@<span class="hljs-keyword">empty</span>
+    &lt;p&gt;No users&lt;/p&gt;
+@endforelse
+
+@<span class="hljs-keyword">while</span> (<span class="hljs-keyword">true</span>)
+    &lt;p&gt;I<span class="hljs-string">'m looping forever.&lt;/p&gt;
+@endwhile
+</span></code></pre>
+<blockquote>
+<p>{tip} When looping, you may use the <a href="https://laravel-guide.readthedocs.io/en/latest/blade/#the-loop-variable">loop variable</a> to gain valuable information about the loop, such as whether you are in the first or last iteration through the loop.</p>
+</blockquote>
+<p>When using loops you may also end the loop or skip the current iteration:</p>
+<pre><code class="hljs php">@<span class="hljs-keyword">foreach</span> (<span class="hljs-variable">$users</span> <span class="hljs-keyword">as</span> <span class="hljs-variable">$user</span>)
+    @<span class="hljs-keyword">if</span> (<span class="hljs-variable">$user</span>-&gt;type == <span class="hljs-number">1</span>)
+        @<span class="hljs-keyword">continue</span>
+    @<span class="hljs-keyword">endif</span>
+
+    &lt;li&gt;{{ <span class="hljs-variable">$user</span>-&gt;name }}&lt;/li&gt;
+
+    @<span class="hljs-keyword">if</span> (<span class="hljs-variable">$user</span>-&gt;number == <span class="hljs-number">5</span>)
+        @<span class="hljs-keyword">break</span>
+    @<span class="hljs-keyword">endif</span>
+@<span class="hljs-keyword">endforeach</span>
+</code></pre>
+<p>You may also include the condition with the directive declaration in one line:</p>
+<pre><code class="hljs php">@<span class="hljs-keyword">foreach</span> (<span class="hljs-variable">$users</span> <span class="hljs-keyword">as</span> <span class="hljs-variable">$user</span>)
+    @<span class="hljs-keyword">continue</span>(<span class="hljs-variable">$user</span>-&gt;type == <span class="hljs-number">1</span>)
+
+    &lt;li&gt;{{ <span class="hljs-variable">$user</span>-&gt;name }}&lt;/li&gt;
+
+    @<span class="hljs-keyword">break</span>(<span class="hljs-variable">$user</span>-&gt;number == <span class="hljs-number">5</span>)
+@<span class="hljs-keyword">endforeach</span>
+</code></pre>
+<p><a name="the-loop-variable"></a></p>
+<h3 id="the-loop-variable">The Loop Variable</h3>
+<p>When looping, a <code>$loop</code> variable will be available inside of your loop. This variable provides access to some useful bits of information such as the current loop index and whether this is the first or last iteration through the loop:</p>
+<pre><code class="hljs php">@<span class="hljs-keyword">foreach</span> (<span class="hljs-variable">$users</span> <span class="hljs-keyword">as</span> <span class="hljs-variable">$user</span>)
+    @<span class="hljs-keyword">if</span> (<span class="hljs-variable">$loop</span>-&gt;first)
+        This is the first iteration.
+    @<span class="hljs-keyword">endif</span>
+
+    @<span class="hljs-keyword">if</span> (<span class="hljs-variable">$loop</span>-&gt;last)
+        This is the last iteration.
+    @<span class="hljs-keyword">endif</span>
+
+    &lt;p&gt;This is user {{ <span class="hljs-variable">$user</span>-&gt;id }}&lt;/p&gt;
+@<span class="hljs-keyword">endforeach</span>
+</code></pre>
+<p>If you are in a nested loop, you may access the parent loop's <code>$loop</code> variable via the <code>parent</code> property:</p>
+<pre><code class="hljs less"><span class="hljs-variable">@foreach</span> ($users as $user)
+    <span class="hljs-variable">@foreach</span> ($user-&gt;posts as $post)
+        <span class="hljs-variable">@if</span> ($loop-&gt;parent-&gt;first)
+            This is first iteration of the parent loop.
+        <span class="hljs-variable">@endif</span>
+    <span class="hljs-variable">@endforeach</span>
+<span class="hljs-variable">@endforeach</span>
+</code></pre>
+<p>The <code>$loop</code> variable also contains a variety of other useful properties:</p>
+<table class="docutils">
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>$loop-&gt;index</code></td>
+<td>The index of the current loop iteration (starts at 0).</td>
+</tr>
+<tr>
+<td><code>$loop-&gt;iteration</code></td>
+<td>The current loop iteration (starts at 1).</td>
+</tr>
+<tr>
+<td><code>$loop-&gt;remaining</code></td>
+<td>The iteration remaining in the loop.</td>
+</tr>
+<tr>
+<td><code>$loop-&gt;count</code></td>
+<td>The total number of items in the array being iterated.</td>
+</tr>
+<tr>
+<td><code>$loop-&gt;first</code></td>
+<td>Whether this is the first iteration through the loop.</td>
+</tr>
+<tr>
+<td><code>$loop-&gt;last</code></td>
+<td>Whether this is the last iteration through the loop.</td>
+</tr>
+<tr>
+<td><code>$loop-&gt;depth</code></td>
+<td>The nesting level of the current loop.</td>
+</tr>
+<tr>
+<td><code>$loop-&gt;parent</code></td>
+<td>When in a nested loop, the parent's loop variable.</td>
+</tr>
+</tbody>
+</table>
+<p><a name="comments"></a></p>
+<h3 id="comments">Comments</h3>
+<p>Blade also allows you to define comments in your views. However, unlike HTML comments, Blade comments are not included in the HTML returned by your application:</p>
+<pre><code class="hljs handlebars"><span class="xml"></span><span class="hljs-expression">{{<span class="hljs-variable">--</span> <span class="hljs-variable">This</span> <span class="hljs-variable">comment</span> <span class="hljs-variable">will</span> <span class="hljs-variable">not</span> <span class="hljs-variable">be</span> <span class="hljs-variable">present</span> <span class="hljs-variable"><span class="hljs-keyword">in</span></span> <span class="hljs-variable">the</span> <span class="hljs-variable">rendered</span> <span class="hljs-variable">HTML</span> <span class="hljs-variable">--</span>}}</span><span class="xml">
+</span></code></pre>
+<p><a name="php"></a></p>
+<h3 id="php">PHP</h3>
+<p>In some situations, it's useful to embed PHP code into your views. You can use the Blade <code>@php</code> directive to execute a block of plain PHP within your template:</p>
+<pre><code class="hljs less"><span class="hljs-variable">@php</span>
+    <span class="hljs-comment">//</span>
+<span class="hljs-variable">@endphp</span>
+</code></pre>
+<blockquote>
+<p>{tip} While Blade provides this feature, using it frequently may be a signal that you have too much logic embedded within your template.</p>
+</blockquote>
+<p><a name="including-sub-views"></a></p>
+<h2 id="including-sub-views">Including Sub-Views</h2>
+<p>Blade's <code>@include</code> directive allows you to include a Blade view from within another view. All variables that are available to the parent view will be made available to the included view:</p>
+<pre><code class="hljs vbscript-html"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span>&gt;</span>
+    @include('shared.errors')
+
+    <span class="hljs-tag">&lt;<span class="hljs-title">form</span>&gt;</span>
+        <span class="hljs-comment">&lt;!-- Form Contents --&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">form</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+</span></code></pre>
+<p>Even though the included view will inherit all data available in the parent view, you may also pass an array of extra data to the included view:</p>
+<pre><code class="hljs sml">@<span class="hljs-keyword">include</span>(<span class="hljs-symbol">'view</span>.name', [<span class="hljs-symbol">'some'</span> =&gt; <span class="hljs-symbol">'data'</span>])
+</code></pre>
+<p>Of course, if you attempt to <code>@include</code> a view which does not exist, Laravel will throw an error. If you would like to include a view that may or may not be present, you should use the <code>@includeIf</code> directive:</p>
+<pre><code class="hljs stylus">@<span class="hljs-function"><span class="hljs-title">includeIf</span><span class="hljs-params">(<span class="hljs-string">'view.name'</span>, [<span class="hljs-string">'some'</span> =&gt; <span class="hljs-string">'data'</span>])</span></span>
+</code></pre>
+<blockquote>
+<p>{note} You should avoid using the <code>__DIR__</code> and <code>__FILE__</code> constants in your Blade views, since they will refer to the location of the cached, compiled view.</p>
+</blockquote>
+<p><a name="rendering-views-for-collections"></a></p>
+<h3 id="rendering-views-for-collections">Rendering Views For Collections</h3>
+<p>You may combine loops and includes into one line with Blade's <code>@each</code> directive:</p>
+<pre><code class="hljs stylus">@<span class="hljs-function"><span class="hljs-title">each</span><span class="hljs-params">(<span class="hljs-string">'view.name'</span>, <span class="hljs-variable">$jobs</span>, <span class="hljs-string">'job'</span>)</span></span>
+</code></pre>
+<p>The first argument is the view partial to render for each element in the array or collection. The second argument is the array or collection you wish to iterate over, while the third argument is the variable name that will be assigned to the current iteration within the view. So, for example, if you are iterating over an array of <code>jobs</code>, typically you will want to access each job as a <code>job</code> variable within your view partial. The key for the current iteration will be available as the <code>key</code> variable within your view partial.</p>
+<p>You may also pass a fourth argument to the <code>@each</code> directive. This argument determines the view that will be rendered if the given array is empty.</p>
+<pre><code class="hljs stylus">@<span class="hljs-function"><span class="hljs-title">each</span><span class="hljs-params">(<span class="hljs-string">'view.name'</span>, <span class="hljs-variable">$jobs</span>, <span class="hljs-string">'job'</span>, <span class="hljs-string">'view.empty'</span>)</span></span>
+</code></pre>
+<p><a name="stacks"></a></p>
+<h2 id="stacks">Stacks</h2>
+<p>Blade allows you to push to named stacks which can be rendered somewhere else in another view or layout. This can be particularly useful for specifying any JavaScript libraries required by your child views:</p>
+<pre><code class="hljs less"><span class="hljs-variable">@push</span>(<span class="hljs-string">'scripts'</span>)
+    &lt;script src=<span class="hljs-string">"/example.js"</span>&gt;&lt;/script&gt;
+<span class="hljs-variable">@endpush</span>
+</code></pre>
+<p>You may push to a stack as many times as needed. To render the complete stack contents, pass the name of the stack to the <code>@stack</code> directive:</p>
+<pre><code class="hljs vbscript-html"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
+    <span class="hljs-comment">&lt;!-- Head Contents --&gt;</span>
+
+    @stack('scripts')
+<span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
+</span></code></pre>
+<p><a name="service-injection"></a></p>
+<h2 id="service-injection">Service Injection</h2>
+<p>The <code>@inject</code> directive may be used to retrieve a service from the Laravel <a href="https://laravel-guide.readthedocs.io/en/latest/docs/%7B%7Bversion%7D%7D/container">service container</a>. The first argument passed to <code>@inject</code> is the name of the variable the service will be placed into, while the second argument is the class or interface name of the service you wish to resolve:</p>
+<pre><code class="hljs handlebars"><span class="xml">@inject('metrics', 'App\Services\MetricsService')
+
+<span class="hljs-tag">&lt;<span class="hljs-title">div</span>&gt;</span>
+    Monthly Revenue: </span><span class="hljs-expression">{{ $<span class="hljs-variable">metrics-</span>&gt;<span class="hljs-variable">monthlyRevenue</span>() }}</span><span class="xml">.
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+</span></code></pre>
+<p><a name="extending-blade"></a></p>
+<h2 id="extending-blade">Extending Blade</h2>
+<p>Blade allows you to define your own custom directives using the <code>directive</code> method. When the Blade compiler encounters the custom directive, it will call the provided callback with the expression that the directive contains.</p>
+<p>The following example creates a <code>@datetime($var)</code> directive which formats a given <code>$var</code>, which should be an instance of <code>DateTime</code>:</p>
+<pre><code class="hljs php"><span class="hljs-preprocessor">&lt;?php</span>
+
+<span class="hljs-keyword">namespace</span> <span class="hljs-title">App</span>\<span class="hljs-title">Providers</span>;
+
+<span class="hljs-keyword">use</span> <span class="hljs-title">Illuminate</span>\<span class="hljs-title">Support</span>\<span class="hljs-title">Facades</span>\<span class="hljs-title">Blade</span>;
+<span class="hljs-keyword">use</span> <span class="hljs-title">Illuminate</span>\<span class="hljs-title">Support</span>\<span class="hljs-title">ServiceProvider</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">AppServiceProvider</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">ServiceProvider</span>
+</span>{
+    <span class="hljs-comment">/**
+     * Perform post-registration booting of services.
+     *
+     *<span class="hljs-phpdoc"> @return</span> void
+     */</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">boot</span><span class="hljs-params">()</span>
+    </span>{
+        Blade::directive(<span class="hljs-string">'datetime'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">(<span class="hljs-variable">$expression</span>)</span> </span>{
+            <span class="hljs-keyword">return</span> <span class="hljs-string">"&lt;?php echo ($expression)-&gt;format('m/d/Y H:i'); ?&gt;"</span>;
+        });
+    }
+
+    <span class="hljs-comment">/**
+     * Register bindings in the container.
+     *
+     *<span class="hljs-phpdoc"> @return</span> void
+     */</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">register</span><span class="hljs-params">()</span>
+    </span>{
+        <span class="hljs-comment">//</span>
+    }
+}
+</code></pre>
+<p>As you can see, we will chain the <code>format</code> method onto whatever expression is passed into the directive. So, in this example, the final PHP generated by this directive will be:</p>
+<pre><code class="hljs vbscript-html"><span class="xml"><span class="php"><span class="hljs-preprocessor">&lt;?php</span> <span class="hljs-keyword">echo</span> (<span class="hljs-variable">$var</span>)-&gt;format(<span class="hljs-string">'m/d/Y H:i'</span>); <span class="hljs-preprocessor">?&gt;</span></span>
+</span></code></pre>
+<blockquote>
+<p>{note} After updating the logic of a Blade directive, you will need to delete all of the cached Blade views. The cached Blade views may be removed using the <code>view:clear</code> Artisan command.</p>
+</blockquote>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="https://laravel-guide.readthedocs.io/en/latest/broadcasting/" class="btn btn-neutral float-right" title="Broadcasting">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="https://laravel-guide.readthedocs.io/en/latest/billing/" class="btn btn-neutral" title="Billing"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr><div><div id="rtd-cs7aq0j1r1kyb9" class="ethical-rtd"></div></div>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org/">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book"> Read the Docs</span>
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions"><!-- Inserted RTD Footer -->
+<div class="injected">
+
+  
+
+      
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+         <strong> 
+        <dd><a href="https://laravel-guide.readthedocs.io/en/latest/blade.html">latest</a></dd>
+         </strong> 
+        
+        
+        <dd><a href="https://laravel-guide.readthedocs.io/en/stable/blade.html">stable</a></dd>
+        
+        
+      </dl>
+      
+      
+
+      
+      
+      
+
+      
+      <dl>
+        <!-- These are kept as relative links for internal installs that are http -->
+        <dt>On Read the Docs</dt>
+        <dd>
+          <a href="https://readthedocs.org/projects/laravel-guide/">Project Home</a>
+        </dd>
+        <dd>
+          <a href="https://readthedocs.org/projects/laravel-guide/builds/">Builds</a>
+        </dd>
+        <dd>
+          <a href="https://readthedocs.org/projects/laravel-guide/downloads/">Downloads</a>
+        </dd>
+      </dl>
+      
+
+      
+
+      
+      <dl>
+        <dt>On GitHub</dt>
+        <dd>
+          <a href="https://github.com/laravel/docs/tree/5.5/blob/master/home/docs/checkouts/readthedocs.org/user_builds/laravel-guide/checkouts/latest/blade.md">View</a>
+        </dd>
+        
+        <dd>
+          <a href="https://github.com/laravel/docs/tree/5.5/edit/master/home/docs/checkouts/readthedocs.org/user_builds/laravel-guide/checkouts/latest/blade.md">Edit</a>
+        </dd>
+        
+      </dl>
+      
+      
+
+      
+      <dl>
+        <dt>Search</dt>
+        <dd>
+          <div style="padding: 6px;">
+            <form id="flyout-search-form" class="wy-form" target="_blank" action="https://readthedocs.org/projects/laravel-guide/search/" method="get">
+              <input type="text" name="q" placeholder="Search docs">
+              </form>
+          </div>
+        </dd>
+      </dl>
+      
+
+
+
+      <hr>
+      
+        <small>
+          <span>Hosted by <a href="https://readthedocs.org/">Read the Docs</a></span>
+          <span> · </span>
+          <a href="https://docs.readthedocs.io/page/privacy-policy.html">Privacy Policy</a>
+        </small>
+      
+
+      
+
+</div>
+</div>
+  </div>
+
+
+
+</body></html>

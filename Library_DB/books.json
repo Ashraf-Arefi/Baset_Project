@@ -1,0 +1,55 @@
+{ 
+    "_id" : ObjectId("5dd54cac328eb808700012dc"), 
+    "bookTitle" : "تاریخ افغانستان", 
+    "edition" : "دوم", 
+    "author_name" : "هوگو", 
+    "publisher_name" : "مسلم", 
+    "catId" : "5dd53fc2328eb808700012d5", 
+    "totalAvail" : "3", 
+    "updated_at" : ISODate("2019-11-20T15:23:36.000+0000"), 
+    "created_at" : ISODate("2019-11-20T14:24:44.000+0000")
+}
+{ 
+    "_id" : ObjectId("5dd609b7328eb800a8002152"), 
+    "bookTitle" : "خاطرات یک دلقک", 
+    "edition" : "سوم", 
+    "author_name" : "میشل", 
+    "publisher_name" : "طلوع", 
+    "catId" : "5dd53c13328eb808700012d3", 
+    "totalAvail" : "3", 
+    "updated_at" : ISODate("2019-11-21T03:51:19.000+0000"), 
+    "created_at" : ISODate("2019-11-21T03:51:19.000+0000")
+}
+{ 
+    "_id" : ObjectId("5dd6b90a328eb80d9400696b"), 
+    "bookTitle" : "راز های یک متفکر", 
+    "edition" : "چهارم", 
+    "author_name" : "بریان ترسی", 
+    "publisher_name" : "کابل", 
+    "catId" : "5dd6b851328eb80d94006966", 
+    "totalAvail" : "2", 
+    "updated_at" : ISODate("2019-11-21T16:19:22.000+0000"), 
+    "created_at" : ISODate("2019-11-21T16:19:22.000+0000")
+}
+{ 
+    "_id" : ObjectId("5dd6b950328eb80d9400696c"), 
+    "bookTitle" : "سراج التواریخ", 
+    "edition" : "اول", 
+    "author_name" : "احمد پژواک", 
+    "publisher_name" : "طلوع", 
+    "catId" : "5dd6b851328eb80d94006966", 
+    "totalAvail" : "3", 
+    "updated_at" : ISODate("2019-11-21T16:20:32.000+0000"), 
+    "created_at" : ISODate("2019-11-21T16:20:32.000+0000")
+}
+{ 
+    "_id" : ObjectId("5dd6b97a328eb80d9400696d"), 
+    "bookTitle" : "بینوایان", 
+    "edition" : "دوم", 
+    "author_name" : "هوگو", 
+    "publisher_name" : "مسلم", 
+    "catId" : "5dd6b85c328eb80d94006967", 
+    "totalAvail" : "2", 
+    "updated_at" : ISODate("2019-11-21T16:21:14.000+0000"), 
+    "created_at" : ISODate("2019-11-21T16:21:14.000+0000")
+}

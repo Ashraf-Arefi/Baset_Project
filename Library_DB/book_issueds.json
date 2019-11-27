@@ -1,0 +1,9 @@
+{ 
+    "_id" : ObjectId("5dd5803a328eb808700012e2"), 
+    "memId" : "5dd5800e328eb808700012e1", 
+    "bookId" : "5dd54cac328eb808700012dc", 
+    "issueDate" : "2019-11-23", 
+    "returnDate" : "2019-11-22", 
+    "updated_at" : ISODate("2019-11-20T18:04:42.000+0000"), 
+    "created_at" : ISODate("2019-11-20T18:04:42.000+0000")
+}
